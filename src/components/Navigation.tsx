@@ -41,7 +41,8 @@ const Navigation = () => {
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center space-x-4">
             <Button className="btn-primary" size="sm">
-              เริ่มใช้ฟรี
+              <a href='/start'>เริ่มใช้ฟรี</a>
+              
             </Button>
           </div>
 
