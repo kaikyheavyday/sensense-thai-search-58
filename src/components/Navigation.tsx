@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import sensearchLogo from '@/assets/sensearch-logo.png';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,11 +20,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img 
-              src={sensearchLogo} 
-              alt="SenSearch" 
-              className="h-8 w-auto"
-            />
+            <h1 className="text-2xl font-bold text-gradient font-english">SenSearch</h1>
           </div>
 
           {/* Desktop Menu */}
