@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 const Start = () => {
   return (
@@ -12,8 +13,8 @@ const Start = () => {
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-secondary/10 rounded-full blur-3xl"></div>
         <div className="block">
-          <input type="file" />
-          <Button size="lg" className="btn-primary text-lg px-8 py-6">
+          <Input type="file" />
+          <Button size="lg" className="btn-primary text-lg px-8 py-6 mt-10">
             ส่งไฟล์​
           </Button>
         </div>
