@@ -1,17 +1,17 @@
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: 'Product', href: '#product' },
-    { name: 'Solutions', href: '#solutions' },
-    { name: 'Pricing', href: '#pricing' },
-    { name: 'Customers', href: '#customers' },
-    { name: 'Docs', href: '#docs' },
-    { name: 'Contact', href: '#contact' },
+    { name: "Product", href: "#product" },
+    { name: "Solutions", href: "#solutions" },
+    { name: "Pricing", href: "#pricing" },
+    { name: "Customers", href: "#customers" },
+    { name: "Docs", href: "#docs" },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -20,7 +20,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-gradient font-english">SenSearch</h1>
+            <h1 className="text-2xl font-bold text-gradient font-english">
+              SenSearch
+            </h1>
           </div>
 
           {/* Desktop Menu */}
@@ -41,8 +43,7 @@ const Navigation = () => {
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center space-x-4">
             <Button className="btn-primary" size="sm">
-              <a href='/start'>เริ่มใช้ฟรี</a>
-              
+              <a href="/start">เริ่มใช้ฟรี</a>
             </Button>
           </div>
 
@@ -78,7 +79,7 @@ const Navigation = () => {
               ))}
               <div className="pt-4 pb-3 border-t border-border space-y-2">
                 <Button className="btn-primary w-full">
-                  เริ่มใช้ฟรี
+                  <a href="/start">เริ่มใช้ฟรี</a>
                 </Button>
               </div>
             </div>
