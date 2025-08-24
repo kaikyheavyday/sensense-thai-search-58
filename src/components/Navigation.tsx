@@ -40,9 +40,6 @@ const Navigation = () => {
 
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm">
-              ขอเดโม
-            </Button>
             <Button className="btn-primary" size="sm">
               เริ่มใช้ฟรี
             </Button>
@@ -79,9 +76,6 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="pt-4 pb-3 border-t border-border space-y-2">
-                <Button variant="outline" className="w-full">
-                  ขอเดโม
-                </Button>
                 <Button className="btn-primary w-full">
                   เริ่มใช้ฟรี
                 </Button>

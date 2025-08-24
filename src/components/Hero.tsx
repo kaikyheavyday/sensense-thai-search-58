@@ -55,9 +55,6 @@ const Hero = () => {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button size="lg" className="btn-primary text-lg px-8 py-6">
-                ขอเดโม 30 นาที
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6">
                 เริ่มใช้ฟรี
               </Button>
             </div>

@@ -20,9 +20,6 @@ const BottomCTA = () => {
             </div>
             
             <div className="flex items-center space-x-3">
-              <Button variant="outline" size="sm" className="hidden sm:flex">
-                ขอเดโม
-              </Button>
               <Button className="btn-primary" size="sm">
                 <span>เริ่มใช้ฟรี</span>
                 <ArrowRight className="h-4 w-4 ml-2" />
@@ -55,11 +52,8 @@ const BottomCTA = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6 shadow-xl">
-                ขอเดโม 30 นาที
-                <ArrowRight className="h-5 w-5 ml-2" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6">
                 เริ่มใช้ฟรี
+                <ArrowRight className="h-5 w-5 ml-2" />
               </Button>
             </div>
 
